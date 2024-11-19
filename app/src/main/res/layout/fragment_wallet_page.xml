@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalletPage">
+
+    <LinearLayout
+        android:layout_marginHorizontal="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/balanceTextView"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="12dp"
+            android:letterSpacing=".03"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="32dp"
+            android:text="Balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/depositButton"
+            android:textAllCaps="false"
+            android:layout_marginVertical="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/green"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Deposit"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

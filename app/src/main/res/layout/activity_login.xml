@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bg_no_jeep"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="24dp"
+        android:lineSpacingExtra="12dp"
+        android:letterSpacing=".03"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="32dp"
+        android:text="Scan, Pay, Done \nJeepney Simplified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="top"
+        android:layout_marginVertical="32dp"
+        android:layout_marginHorizontal="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_marginVertical="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/usernameInput"
+                android:textColor="@color/black"
+                android:background="@color/lighter"
+                android:hint="username"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            app:passwordToggleEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordInput"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:background="@color/lighter"
+                android:hint="password"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:textAllCaps="false"
+            android:layout_marginVertical="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/primary"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:id="@+id/generate_qr_button"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:text="Generate QR Code"
+        android:layout_gravity="center"/>
+
+    <ImageView
+
+        android:id="@+id/qr_code_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</FrameLayout>

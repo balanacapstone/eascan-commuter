@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountPage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginHorizontal="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/fullNameAcc"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:lineSpacingExtra="12dp"
+            android:letterSpacing=".03"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="32dp"
+            android:text="Fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/usernameAcc"
+            android:gravity="center"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="12dp"
+            android:letterSpacing=".03"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="12dp"
+            android:text="username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/historyButton"
+            android:textAllCaps="false"
+            android:layout_marginVertical="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/primary"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Transaction History"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logoutButton"
+            android:textAllCaps="false"
+            android:layout_marginVertical="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/green"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

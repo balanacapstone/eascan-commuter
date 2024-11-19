@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/conductorUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conductor"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fareType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fare Type" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location" />
+
+</LinearLayout>
